@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <script src="https://kit.fontawesome.com/87f450826e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="validation.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Signup</h1>
+        <p id="error_message"></p>
+        <form action="" id="form">
+            <div> 
+                <label for="firstname_input">
+                    <i class="fa-solid fa-user" style="color: white;"></i>
+                </label>
+                <input  type="text" name="firstname" id="firstname_input" placeholder="firstname">
+            </div>
+            <div>
+                <label for="email_input"><span>@</span></label>
+                <input type="email" name="email" id="email_input" placeholder="email">
+            </div>
+            <div>
+                <label for="password_input">
+                    <i class="fa-solid fa-lock"></i>
+                </label>
+                <input type="password" name="password" id="password_input" placeholder="password">
+            </div>
+            <div>
+                <label for="comfirm_password_input"><i class="fa-solid fa-lock"></i></label>
+                <input type="password" name="confirm_password" id="confirm_password_input" placeholder="confirm password">
+            </div>
+            <button type="submit">Signup</button>
+        </form>
+        <p>Already have an Account? <a href="login.html"> Login</a></p>
+    </div>
+</body>
+
+</html>
