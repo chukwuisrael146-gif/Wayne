@@ -27,6 +27,17 @@ body{
     overflow: hidden;
 }
 
+p#countdown {
+    background-color: var(--accent-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: red;
+    height: 70px;
+    width: 200px;
+}
+
 .wrapper{
     box-sizing: border-box;
     background-color: var(--base-color);
