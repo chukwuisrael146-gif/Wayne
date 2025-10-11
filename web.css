@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10%;
+    border-bottom: 1px solid transparent;
+    z-index: 10;
+    background-color: red;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    width: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.logo img{
+    margin-right: 10px;
+    color: white;
+    width: 100%;
+}
+
+.signup {
+    background: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 25px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 0;
+    outline: none;
+}
+
+.signup a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-content{
+    min-height: 100vh;
+    background: rgb(26, 23, 23);
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.fight{
+    font-family: inherit;
+    font-size: 5vw;
+    color: white;
+}
+
+.champ{
+    font-family: inherit;
+    font-size: 5vw;
+    color: red;
+}
+
+.header-content img{
+    width: 80%;
+    max-width: 500px;
+    position: absolute;
+    right: 13%;
+    bottom: 0;
+}
+
+.body-content{
+    min-height: 100vh;
+    background: white;
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-section {
+  padding: 40px 100px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px; /* space between image and text */
+}
+
+.about-image {
+  width: 45%;
+  border-radius: 8px;
+}
+
+.about-text {
+  width: 45%;
+}
+
+.about-text h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.signup1{
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    outline: none;
+    border: 0;
+}
+
+.signup1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.foot{
+    min-height: 50vh;
+    background: black;
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.foot-section{
+    padding: 40px 100px;
+}
+
+.foot-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.foot-text{
+    width: 45%;
+}
+
+.foot-text h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.next{
+    color: red;
+}
+
+.mail-icon{
+    width: 20px;
+    margin-right: 10px;
+    background: white;
+}
+
+.section-btn{
+    background: none;
+    border: none;
+}
+
+
+
+

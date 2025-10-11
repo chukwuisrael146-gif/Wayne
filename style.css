@@ -28,7 +28,7 @@ body{
 }
 
 p#countdown {
-    background-color: var(--accent-color);
+    background-color: white;
     display: inline-flex;
     align-items: center;
     justify-content: center;
