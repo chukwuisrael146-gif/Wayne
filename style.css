@@ -38,6 +38,7 @@ p#countdown {
     width: 200px;
 }
 
+
 .wrapper{
     box-sizing: border-box;
     background-color: var(--base-color);
@@ -53,6 +54,15 @@ p#countdown {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.boxchampy_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 0;
+    color: red;
 }
 
 h1{

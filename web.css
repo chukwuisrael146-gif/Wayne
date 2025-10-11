@@ -190,6 +190,7 @@ nav ul li{
 
 .next{
     color: red;
+    margin: -5px 0 10px 0;
 }
 
 .mail-icon{
@@ -198,9 +199,30 @@ nav ul li{
     background: white;
 }
 
+.mail p{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #fff;
+}
+
 .section-btn{
     background: none;
     border: none;
+}
+
+.section-btn img{
+    width: 40px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.privacy p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #fff;
+    margin: 50px 0;
 }
 
 
